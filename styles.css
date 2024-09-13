@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.search {
+    height: 55px;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    padding: 50px;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.text p {
+    max-width: 320px;
+}
+
+.data {
+    margin-right: 200px;
+    
+}
+
+.place, .countries, .img {
+    display: flex;
+}
